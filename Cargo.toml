@@ -1,12 +1,12 @@
 [package]
 name = "epan-sys"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 description = "FFI Bindings to Wireshark's epan module"
-homepage = "https://github.com/ghpr-asia/wsdf"
+homepage = "https://github.com/lmangani/epan-sys"
 documentation = "https://docs.rs/epan-sys"
-repository = "https://github.com/ghpr-asia/wsdf"
+repository = "https://github.com/lmangani/epan-sys"
 readme = "README.md"
 links = "wireshark"
 keywords = ["wireshark", "ffi"]
