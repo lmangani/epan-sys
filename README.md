@@ -15,3 +15,11 @@ In case pkg-config cannot tell us where to find libwireshark.so, a path to the
 directory containing the dynamic library can be set via the `WIRESHARK_LIB_DIR`
 environment variable.
 
+### Usage 
+```
+[dependencies]
+epan-sys = { git = "https://github.com/lmangani/epan-sys", features = ["bindgen"] }
+```
+
+### Status
+This version simply includes the `wireshark` submodule for binding usage
